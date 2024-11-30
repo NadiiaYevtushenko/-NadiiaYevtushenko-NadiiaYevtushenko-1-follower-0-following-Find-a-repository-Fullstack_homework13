@@ -1,0 +1,28 @@
+.animation {
+  animation-duration: 7s;
+  animation-name: example;
+  position: static;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    fill: green;
+    stroke: black;
+  }
+
+  25% {
+    fill: yellow;
+    stroke: indigo;
+  }
+
+  50% {
+    fill: rgb(128, 128, 128);
+    stroke: red;
+  }
+
+  100% {
+    fill: rgb(180, 212, 180);
+    stroke: blue;
+  }
+}
